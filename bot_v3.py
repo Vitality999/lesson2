@@ -17,6 +17,9 @@ logging.basicConfig(format='%(name)s - %(levelname)s - %(message)s',
 solar = [{'planet':'Меркурий'},{'planet':'Венера'}, {'planet':'Земля'}, {'planet':'Марс'},{'planet': 'Юпитер'},
          {'planet':'Сатурн'}, {'planet':'Нептун'}, {'planet':'Плутон'}, {'planet':'Луна' }, {'planet': 'Солнце'}]
 
+constellations = {'Capricornus':'Козерог', 'Gemini': 'Близнецы', 'Aries':'Овен', 'Libra':'Весы',
+                  'Sagittarius': 'Стрелец', 'Taurus':'Телец', 'Aquarius': 'Водолей', 'Cancer' : 'Рак',
+                  'Leo':'Лев', 'Virgo':'Дева', 'Scorpio': 'Скорпион', 'Pisces': 'Рыбы'}
 sysdate = datetime.datetime.now()
 
 
@@ -54,31 +57,68 @@ def solar_system(bot, update):
         if objects['planet'] == update.message.text:
             if update.message.text == 'Марс':
                 mars = ephem.Mars(sysdate)
-                update.message.reply_text (ephem.constellation(mars)[1])
+                ma = ephem.constellation(mars)[1]
+                if ma in constellations:
+                    update.message.reply_text(constellations.get(ma))
+                else:
+                    update.message.reply_text('Созвезие не обнаружено')
+
             elif update.message.text == 'Юпитер':
                 jupiter = ephem.Jupiter(sysdate)
-                update.message.reply_text (ephem.constellation(jupiter)[1])
+                ju = ephem.constellation(jupiter)[1]
+                if ju in constellations:
+                    update.message.reply_text(constellations.get(ju))
+                else:
+                    update.message.reply_text('Созвезие не обнаружено')
+
             elif update.message.text == 'Луна':
                 moon = ephem.Moon(sysdate)
-                update.message.reply_text(ephem.constellation(moon)[1])
+                mo = ephem.constellation(moon)[1]
+                if mo in constellations:
+                    update.message.reply_text(constellations.get(mo))
+                else:
+                    update.message.reply_text('Созвезие не обнаружено')
+
             elif update.message.text == 'Сатурн':
                 saturn = ephem.Saturn(sysdate)
-                update.message.reply_text(ephem.constellation(saturn)[1])
+                sa = ephem.constellation(saturn)[1]
+                if sa in constellations:
+                    update.message.reply_text(constellations.get(sa))
+                else:
+                    update.message.reply_text('Созвезие не обнаружено')
+
             elif update.message.text == 'Венера':
                 venus = ephem.Venus(sysdate)
-                update.message.reply_text(ephem.constellation(venus)[1])
-            elif update.message.text == 'Земля':
-                earth = ephem.Earth(sysdate)
-                update.message.reply_text(ephem.constellation(earth)[1])
+                ve = ephem.constellation(venus)[1]
+                if ve in constellations:
+                    update.message.reply_text(constellations.get(ve))
+                else:
+                    update.message.reply_text('Созвезие не обнаружено')
+
             elif update.message.text == 'Солнце':
                 sun = ephem.Sun(sysdate)
-                update.message.reply_text(ephem.constellation(sun)[1])
+                sa = ephem.constellation(sun)[1]
+                if sa in constellations:
+                    update.message.reply_text(constellations.get(sa))
+                else:
+                    update.message.reply_text('Созвезие не обнаружено')
+
             elif update.message.text == 'Меркурий':
                 mercury = ephem.Mercury(sysdate)
-                update.message.reply_text(ephem.constellation(mercury)[1])
+                me = ephem.constellation(mercury)[1]
+                if me in constellations:
+                    update.message.reply_text(constellations.get(me))
+                else:
+                    update.message.reply_text('Созвезие не обнаружено')
+
             elif update.message.text == 'Нептун':
                 neptune = ephem.Neptune(sysdate)
-                update.message.reply_text(ephem.constellation(neptune)[1])
+                ne = ephem.constellation(neptune)[1]
+                if ne in constellations:
+                    update.message.reply_text(constellations.get(ne))
+                else:
+                    update.message.reply_text('Созвезие не обнаружено')
+
             elif update.message.text == 'Плутон':
                 update.message.reply_text('Настолько маленькая, что и планетой назвать нельзя')
             else:
