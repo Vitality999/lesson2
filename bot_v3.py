@@ -2,6 +2,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 import ephem
 import datetime
+import keys
 
 
 
@@ -125,15 +126,59 @@ def solar_system(bot, update):
                 update.message.reply_text('Планету украли')
 
 
+def counting_word (bot, update):
+    have = update.message.text.replace(',', ' ').replace('.', ' ').replace('!', ' ').replace('?', ' ')\
+    .replace('!', ' ').replace('\n', ' ').replace('\t', ' ')
+    if len(have) > 10:
+        if have[11] in '\"\'' and have[-1] in '\"\'':
+            counter = str(len(have.split())-1)
+            update.message.reply_text('Всего слов: ' + counter  )
+        else:
+            update.message.reply_text('Введите фразу в кавычках')
+    elif len(have) <= 10:
+        update.message.reply_text("Вы ничего не ввели")
+    else:
+        update.message.reply_text('Такое не считаем')
 
+def calculate(bot, update):
+    enter = update.message.text
+    if enter.endswith('='):
+        parse = enter.split()
+        replacement = (parse[1].replace('=', ''))
+        if '+' in replacement:
+            substitution = replacement.replace('+',' ')
+            sp = substitution.split()
+            update.message.reply_text(int(sp[0]) + int(sp[1]))
+        elif '-' in replacement:
+            substitution = replacement.replace('-',' ')
+            sp = substitution.split()
+            update.message.reply_text(int(sp[0]) - int(sp[1]))
+        elif '*' in replacement:
+            substitution = replacement.replace('*',' ')
+            sp = substitution.split()
+            update.message.reply_text(int(sp[0]) * int(sp[1]))
+        elif '/' in replacement:
+            try:
+                substitution = replacement.replace('/',' ')
+                sp = substitution.split()
+                update.message.reply_text(int(sp[0]) / int(sp[1]))
+            except ZeroDivisionError:
+                update.message.reply_text('На ноль даже на зоне не делят')
+
+    else:
+        update.message.reply_text('Выражение не содержит в конце знака "="')
 
 
 def main():
-    mybot = Updater("525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg", request_kwargs=PROXY)
+    mybot = Updater(keys.tKey, request_kwargs=PROXY)
     dp = mybot.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
     dp.add_handler(CommandHandler("planet", question))
+    dp.add_handler(CommandHandler("wordcount", counting_word))
+    dp.add_handler(CommandHandler("calculate", calculate))
     dp.add_handler(MessageHandler(Filters.text, solar_system))
+
+
 
     mybot.start_polling()
     mybot.idle()
