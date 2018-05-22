@@ -21,7 +21,11 @@ solar = [{'planet':'Меркурий'},{'planet':'Венера'}, {'planet':'З�
 constellations = {'Capricornus':'Козерог', 'Gemini': 'Близнецы', 'Aries':'Овен', 'Libra':'Весы',
                   'Sagittarius': 'Стрелец', 'Taurus':'Телец', 'Aquarius': 'Водолей', 'Cancer' : 'Рак',
                   'Leo':'Лев', 'Virgo':'Дева', 'Scorpio': 'Скорпион', 'Pisces': 'Рыбы'}
+
 sysdate = datetime.datetime.now()
+
+numbers = {'один': 1, 'два': 2, 'три': 3, 'четыре': 4, 'пять': 5, 'шесть': 6, 'семь': 7,
+           'восемь': 8, 'девять': 9, 'десять': 10, 'ноль': 0}
 
 
 def greet_user(bot, update):
@@ -165,6 +169,63 @@ def calculate(bot, update):
             except ZeroDivisionError:
                 update.message.reply_text('На ноль даже на зоне не делят')
 
+#взаимодействие с числами в виде строки:
+
+    elif 'плюс' in enter.split()[2]:
+        replaces = enter.lower().replace(',', ' ').replace('.', ' ').replace('!', ' ').replace('?', ' ')
+        string = replaces.split()[1:]
+        if string[0] in numbers and string[2] in numbers:
+            result = int(numbers.get(string[0]) + int(numbers.get(string[2])))
+            update.message.reply_text(result)
+    elif 'минус' in enter.split()[2]:
+        replaces = enter.lower().replace(',', ' ').replace('.', ' ').replace('!', ' ').replace('?', ' ')
+        string = replaces.split()[1:]
+        if string[0] in numbers and string[2] in numbers:
+            result = int(numbers.get(string[0]) - int(numbers.get(string[2])))
+            update.message.reply_text(result)
+    elif 'умножить' in enter.split()[2]:
+        replaces = enter.lower().replace(',', ' ').replace('.', ' ').replace('!', ' ').replace('?', ' ').replace('на', ' ')
+        string = replaces.split()[1:]
+        if string[0] in numbers and string[2] in numbers:
+            result = int(numbers.get(string[0]) * int(numbers.get(string[2])))
+            update.message.reply_text(result)
+    elif 'делить' in enter.split()[2] or 'поделить' in enter.split()[2]:
+        try:
+            replaces = enter.lower().replace(',', ' ').replace('.', ' ').replace('!', ' ').replace('?', ' ').replace('на', ' ')
+            string = replaces.split()[1:]
+            if string[0] in numbers and string[2] in numbers:
+                result = int(numbers.get(string[0]) / int(numbers.get(string[2])))
+                update.message.reply_text(result)
+        except ZeroDivisionError:
+            update.message.reply_text('На ноль даже на зоне не делят')
+
+#взаимодействие вещественных чисел:
+
+    elif 'и' in enter.lower().split():
+        replaces = enter.lower().replace(',', ' ').replace('.', ' ').replace('!', ' ').replace('?', ' ').replace('на', ' ')
+        string = replaces.split()[1:]
+        string[1] = '.'
+        string[5] = '.'
+        if 'умножить' in string:
+            x = str(numbers.get(string[0])) + '.' + str(numbers.get(string[2]))
+            y = str(numbers.get(string[4])) + '.' + str(numbers.get(string[6]))
+            z = round(float(x) * float(y), 2)
+            update.message.reply_text(z)
+        elif 'делить' in string or 'поделить' in string:
+            x = str(numbers.get(string[0])) + '.' + str(numbers.get(string[2]))
+            y = str(numbers.get(string[4])) + '.' + str(numbers.get(string[6]))
+            z = round(float(x) / float(y), 2)
+            update.message.reply_text(z)
+        elif 'плюс' in string:
+            x = str(numbers.get(string[0])) + '.' + str(numbers.get(string[2]))
+            y = str(numbers.get(string[4])) + '.' + str(numbers.get(string[6]))
+            z = round(float(x) + float(y), 2)
+            update.message.reply_text(z)
+        elif 'минус' in string:
+            x = str(numbers.get(string[0])) + '.' + str(numbers.get(string[2]))
+            y = str(numbers.get(string[4])) + '.' + str(numbers.get(string[6]))
+            z = round(float(x) - float(y), 2)
+            update.message.reply_text(z)
     else:
         update.message.reply_text('Выражение не содержит в конце знака "="')
 

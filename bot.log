@@ -2803,3 +2803,639 @@ telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
 telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 150, in calculate
+    replacement = (parse[1:].replace('=', ''))
+AttributeError: 'list' object has no attribute 'replace'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 150, in calculate
+    replacement = (parse[1:].replace('=', ''))
+AttributeError: 'list' object has no attribute 'replace'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 150, in calculate
+    replacement = (parse[1:].replace('=', ''))
+AttributeError: 'list' object has no attribute 'replace'
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 150, in calculate
+    replacement = (parse[1:].replace('=', ''))
+AttributeError: 'list' object has no attribute 'replace'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FE4828>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FE4240>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FE4358>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FFCC50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8E48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8AC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8240>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8940>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8BA8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC82B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC85C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC82E8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FD3898>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FE41D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000032EEEF0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FFCE10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8668>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8240>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8390>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8828>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC86A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005B38>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005CC0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005DA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005F98>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000010058D0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC85F8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FE4C18>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003FFCF98>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000100E358>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000100E710>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000100E8D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000100EA90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001018B00>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001018978>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001018390>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001018128>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001018E10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005748>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005C88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005780>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005A20>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001005400>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000010055C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000000FC8390>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037D3208>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037D35C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037D3630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037D3710>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037D3128>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037F85F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037F8710>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037F8828>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037C4978>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037D3320>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037D34E0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000037F8978>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F633C8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F7C2B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F7C400>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F53F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F63780>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F7CBA8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F7CC50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F7CE10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003834AC8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003834EF0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003834F98>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.ext.updater - ERROR - Error while bootstrap del webhook: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000038470F0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',))
+telegram.ext.updater - WARNING - Failed bootstrap phase; try=1 max_retries=-1
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003847BA8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003863518>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003864AC8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003864EF0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003877080>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000038778D0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000038779E8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003892470>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003892550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003877828>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000543C198>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000543C240>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000543C320>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000543C3C8>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000543C588>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000543C6A0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000543C7B8>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003834748>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003834FD0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000384C198>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000384C278>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)'))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003C54B00>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003C54EF0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003C54F98>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.ext.updater - ERROR - Error while bootstrap del webhook: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003C660F0>: Failed to establish a new connection: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение',))
+telegram.ext.updater - WARNING - Failed bootstrap phase; try=1 max_retries=-1
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ReadTimeoutError("SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)",)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getMe
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ReadTimeoutError("SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)",)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getMe
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ReadTimeoutError("SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)",)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getMe
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000041550F0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004155550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000041555F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000041556D8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004155128>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000059045C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000059046D8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000059047F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004144B38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004155320>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004155780>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000005904A58>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E03B70>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E03F98>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E16080>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook
+telegram.ext.updater - ERROR - Error while bootstrap del webhook: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/deleteWebhook (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E161D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - WARNING - Failed bootstrap phase; try=1 max_retries=-1
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E16C50>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E337B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E33898>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E33A58>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E16400>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E3D940>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E3D9E8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003E3DBA8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F44860>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F33B38>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F44DA0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F44898>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F33F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F5CBA8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003F5CD30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000046F3198>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000046F3550>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000046F3630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000046F37F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000046F30F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003D536A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000046E39B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000046F32B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000043140B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000035E1C50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004303F28>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004314518>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000043146A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000432DE48>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000432DFD0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000013270B8>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000013272B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001327390>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000013276A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000035E1C50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004314CF8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001327EF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001327E48>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001330320>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001330438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000013307B8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000013309B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000001330BA8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000133F828>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000133F668>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000133F518>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000133F400>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 191, in calculate
+    string = replaces.split()[1:].lower()
+AttributeError: 'list' object has no attribute 'lower'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 191, in calculate
+    string = (replaces.split()[1:]).lower()
+AttributeError: 'list' object has no attribute 'lower'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004167B00>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004167DD8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004167278>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004167BE0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004167EF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000415D3C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000415D710>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x000000000415DA90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004144748>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000041446D8>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004144C18>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004144588>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000041443C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004144358>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000041445F8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004144438>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004144D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004167F28>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004167B00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004167F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 204, in calculate
+    string.split('.')
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 204, in calculate
+    sp = string.split('.')
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 204, in calculate
+    sp = string.split('.')
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 204, in calculate
+    magic = string.split('.')
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 204, in calculate
+    x = string.split('.')
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 204, in calculate
+    print(string.split())
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 211, in calculate
+    x = string.split()
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 208, in calculate
+    string[1, 5] = '.'
+TypeError: list indices must be integers, not tuple
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 210, in calculate
+    x = string.split(',')
+AttributeError: 'list' object has no attribute 'split'
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045A3908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045BD908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045958D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000004595B38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045A35C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045BD9E8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045BDAC8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045BDBA8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045A3198>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045BDE10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045BDFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000061901D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 210, in calculate
+    print(string.split(' .'))
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 209, in calculate
+    print(string.split(' .'))
+AttributeError: 'list' object has no attribute 'split'
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045E3978>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000038B1C50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045D4F98>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x00000000045E3630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 208, in calculate
+    x = string.split()
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 208, in calculate
+    x = string.split()
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 209, in calculate
+    print(string.split())
+AttributeError: 'list' object has no attribute 'split'
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003B04908>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000002E0EEF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003B14860>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError SOCKSHTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003B14F60>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003B14828>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003B2DDD8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x0000000003B2DE80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',)': /bot525299103:AAHfha3orrDK7khmGe6GKVKkyBkSAiqK0Zg/getUpdates
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 210, in calculate
+    x = string.split()
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 210, in calculate
+    x = string.split()
+AttributeError: 'list' object has no attribute 'split'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 210, in calculate
+    x = str(numbers.get(string[0]) + '.' + number.get(string[2]))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 210, in calculate
+    x = str(numbers.get(string[0])) + '.' + str(number.get(string[2]))
+NameError: name 'number' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 212, in calculate
+    z = int(x) * int(y)
+ValueError: invalid literal for int() with base 10: '4.5'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - WARNING - A TelegramError was raised while processing the Update
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 213, in calculate
+    update.message.reply_text('Результат: ', round(z, 2))
+  File "C:\Python34\lib\site-packages\telegram\message.py", line 432, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\telegram\bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\telegram\bot.py", line 85, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Python34\lib\site-packages\telegram\utils\request.py", line 278, in post
+    **urlopen_kwargs)
+  File "C:\Python34\lib\site-packages\telegram\utils\request.py", line 215, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Unsupported parse_mode
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - WARNING - A TelegramError was raised while processing the Update
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 213, in calculate
+    update.message.reply_text('Результат: ', z)
+  File "C:\Python34\lib\site-packages\telegram\message.py", line 432, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\telegram\bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\telegram\bot.py", line 85, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Python34\lib\site-packages\telegram\utils\request.py", line 278, in post
+    **urlopen_kwargs)
+  File "C:\Python34\lib\site-packages\telegram\utils\request.py", line 215, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Unsupported parse_mode
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
