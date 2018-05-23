@@ -229,6 +229,17 @@ def calculate(bot, update):
     else:
         update.message.reply_text('Выражение не содержит в конце знака "="')
 
+def fullmoon(bot, update):
+    message = update.message.text
+    if message.endswith('?'):
+        replaces = message.replace('?', '').replace('-', '/')
+        separator = replaces.split()
+        moon_date = datetime.datetime.strptime(separator[-1], '%Y/%m/%d')
+        next_date = ephem.next_new_moon(moon_date)
+        update.message.reply_text(next_date)
+    else:
+        update.message.reply_text('Вы забыли поставить знак "?"')
+
 
 def main():
     mybot = Updater(keys.tKey, request_kwargs=PROXY)
@@ -237,6 +248,7 @@ def main():
     dp.add_handler(CommandHandler("planet", question))
     dp.add_handler(CommandHandler("wordcount", counting_word))
     dp.add_handler(CommandHandler("calculate", calculate))
+    dp.add_handler(CommandHandler("newmoon", fullmoon))
     dp.add_handler(MessageHandler(Filters.text, solar_system))
 
 
