@@ -3516,3 +3516,193 @@ telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
 telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    update.message.reply_text(next_date.datetime())
+  File "C:\Python34\lib\site-packages\telegram\message.py", line 432, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\telegram\bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\telegram\bot.py", line 85, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Python34\lib\site-packages\telegram\utils\request.py", line 272, in post
+    data = json.dumps(data)
+  File "C:\Python34\lib\json\__init__.py", line 230, in dumps
+    return _default_encoder.encode(obj)
+  File "C:\Python34\lib\json\encoder.py", line 192, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Python34\lib\json\encoder.py", line 250, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Python34\lib\json\encoder.py", line 173, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: datetime.datetime(2016, 10, 30, 17, 38, 11, 455837) is not JSON serializable
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    update.message.reply_text(next_date.datetime.strftime('%Y-%m-%d'))
+AttributeError: 'builtin_function_or_method' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    update.message.reply_text(next_date.strftime('%Y-%m-%d'))
+AttributeError: 'ephem.Date' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    print (next_date.strftime('%Y-%m-%d'))
+AttributeError: 'ephem.Date' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    print (next_date.strftime('%Y-%m-%D'))
+AttributeError: 'ephem.Date' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    print (next_date.datetime.strftime('%Y-%m-%D'))
+AttributeError: 'builtin_function_or_method' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    x = datetime.datetime.strftime('%Y-%m-%d')
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'str'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    x = datetime.datetime.strptime(next_date,'%Y-%m-%d')
+TypeError: must be str, not ephem.Date
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    x = next_date.datetime.strftime('%Y-%m-%d')
+AttributeError: 'builtin_function_or_method' object has no attribute 'strftime'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    x = datetime.datetime.strftime(next_date, '%Y-%m-%d %H:%M:%S')
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'ephem.Date'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 238, in fullmoon
+    x = datetime.datetime.strftime(next_date, '%Y-%m-%d %H:%M:%S')
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'ephem.Date'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - ERROR - An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 239, in fullmoon
+    datetime.datetime.strftime(next_date, '%Y-%m-%d')
+TypeError: descriptor 'strftime' requires a 'datetime.date' object but received a 'ephem.Date'
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.dispatcher - WARNING - A TelegramError was raised while processing the Update
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception...
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\telegram\ext\dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "C:\Python34\lib\site-packages\telegram\ext\commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot_v3.py", line 240, in fullmoon
+    update.message.reply_text('Ближайшее полнолуние: ', x)
+  File "C:\Python34\lib\site-packages\telegram\message.py", line 432, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\telegram\bot.py", line 60, in decorator
+    result = func(self, *args, **kwargs)
+  File "C:\Python34\lib\site-packages\telegram\bot.py", line 85, in decorator
+    result = self._request.post(url, data, timeout=kwargs.get('timeout'))
+  File "C:\Python34\lib\site-packages\telegram\utils\request.py", line 278, in post
+    **urlopen_kwargs)
+  File "C:\Python34\lib\site-packages\telegram\utils\request.py", line 215, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Unsupported parse_mode
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+telegram.ext.updater - WARNING - Exiting immediately!

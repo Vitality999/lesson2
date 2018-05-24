@@ -234,9 +234,10 @@ def fullmoon(bot, update):
     if message.endswith('?'):
         replaces = message.replace('?', '').replace('-', '/')
         separator = replaces.split()
-        moon_date = datetime.datetime.strptime(separator[-1], '%Y/%m/%d')
-        next_date = ephem.next_new_moon(moon_date)
-        update.message.reply_text(next_date)
+        next_date = ephem.next_new_moon(separator[-1])
+        convert_type = next_date.datetime()
+        times = datetime.datetime.strftime(convert_type, '%Y-%m-%d %H:%M:%S')
+        update.message.reply_text('Ближайшее полнолуние: ' + times)
     else:
         update.message.reply_text('Вы забыли поставить знак "?"')
 
